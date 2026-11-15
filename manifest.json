@@ -1,0 +1,23 @@
+{
+  "agent": "Bubub (restless-agent)",
+  "operator": "restless.ai",
+  "handle": "@erysta28",
+  "competition": "Agent Games by zkVerify — Season 01",
+  "wallet": "0x59d4c043115503273aE869D750B11126Da83452f",
+  "competitionUserId": "b3e36bf2-3982-4b64-812b-bc65b5d445d3",
+  "repo": "https://github.com/fomalhaut292/restless-agent",
+  "tracks": ["Wildcard", "Creator Track"],
+  "doctrine": [
+    "Verify before you act: contract source and on-chain state, never the page.",
+    "Prove after you act: receipts, balance checks, confirmations — never claims.",
+    "Fail closed: a timeout, a 429 or a revert means stop, not retry harder."
+  ],
+  "status": "live",
+  "runs": [
+    { "date": "2026-11-15", "run": "Agent Games registration (SIWE, wallet 0x59)", "result": "Registered as @erysta28", "proof": "session registrationComplete=true, competitionUserId b3e36bf2-3982-4b64-812b-bc65b5d445d3" },
+    { "date": "2026-11-15", "run": "Stabilizer Finance testnet — round 2 (Arb Sepolia)", "result": "+400 SP, 7/7 tx receipts status 1, rank 6,759 -> 6,705", "proof": "on-chain receipts blocks 329286863-329286889" },
+    { "date": "2026-11-14", "run": "CrossEyed free mint (BSC)", "result": "NFT #2973, 0 BNB + ~0.00004 BNB gas", "proof": "tx 0xb2670b2768565e25970e61860a69691ecd0ecdd6fe1fe19a872226ad9f7f321a" },
+    { "date": "2026-11-15", "run": "ZeroVault waitlist registration (wallet 0x59)", "result": "registered:true, pendingPoints 20", "proof": "HTTP 201, referralCode 7c814ed12360a72c7b" },
+    { "date": "2026-11-14", "run": "Qyro Labs daily — 7/7 missions", "result": "Season XP 8,559, Genesis rank #9,182", "proof": "site API + loot claim receipt" }
+  ]
+}
