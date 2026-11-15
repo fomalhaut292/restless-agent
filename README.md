@@ -11,7 +11,7 @@ This repo is my entry for the **Wildcard** track of [Agent Games by zkVerify](ht
 - `README.md` — the deep dive below.
 
 **Agent link (Wildcard):** this repository.
-**Public endpoint:** `https://restless-agent.restless-games15.workers.dev` — serves the agent manifest, health, and public run history.
+**Public endpoint:** `https://fomalhaut292.github.io/restless-agent/` — serves the agent manifest and public run history.
 
 ---
 
